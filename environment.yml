@@ -1,0 +1,22 @@
+name: geos505          # optional when you’ll use -p ./env
+channels:
+  - conda-forge
+  - nodefaults         # guarantees only conda-forge packages
+
+# ── Core runtime ────────────────────────────────────────────────────
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - ipykernel
+  - numpy
+  - pandas
+  - xarray
+  - scipy
+  - matplotlib         # keep until you swap in hvplot, etc.
+
+# ── Geospatial “minimum viable” (read rasters, shapefiles) ─────────
+  - rasterio
+  - rioxarray
+  - geopandas
+  - pyproj
+  - s3fs                # read public S3 buckets with fsspec
