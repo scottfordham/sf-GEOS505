@@ -24,4 +24,5 @@ dependencies:
 
 # —— Geospatial - Google Earth Engine
   - earthengine-api
+  - geemap
 
