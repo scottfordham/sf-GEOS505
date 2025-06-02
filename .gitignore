@@ -4,4 +4,6 @@
 .condarc
 data/
 env/
+**/.config/earthengine/
+**/.gee_key.json
 

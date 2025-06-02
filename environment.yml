@@ -22,3 +22,6 @@ dependencies:
   - s3fs                # read public S3 buckets with fsspec
   - cartopy
 
+# —— Geospatial - Google Earth Engine
+  - earthengine-api
+
