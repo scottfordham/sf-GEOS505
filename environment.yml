@@ -21,8 +21,10 @@ dependencies:
   - pyproj
   - s3fs                # read public S3 buckets with fsspec
   - cartopy
+  - pygeohydro
 
 # —— Geospatial - Google Earth Engine
   - earthengine-api
   - geemap
+  - lonboard
 
