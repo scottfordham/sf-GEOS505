@@ -16,7 +16,7 @@ def lulc_in_zrange(lulc_array, lulc_bins, z_array, zmin, zmax):
     z_ma = z_in_range(z_array, zmin, zmax)
     
     # 2. Get the LULC values within the elevation range mask given in z_ma
-    lulc_ma = np.ma.masked_array(lulc_array, z_ma.mask)
+    lulc_ma = np.ma.masked_array(lulc_array, ~z_ma.mask)
     
     # 3. Get the histogram of LULC in lulc_ma
     lulc_1d = lulc_ma.data[lulc_ma.mask] # 1D vector of LULC not masked

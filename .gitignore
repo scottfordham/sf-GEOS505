@@ -9,4 +9,6 @@ env/
 **/cache
 *.pyc
 **/__pycache__
+*.zip
+generated_images/
 
