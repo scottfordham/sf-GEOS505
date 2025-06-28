@@ -13,6 +13,7 @@ dependencies:
   - xarray
   - scipy
   - matplotlib         # keep until you swap in hvplot, etc.
+  - pyfonts
 
 # ── Geospatial “minimum viable” (read rasters, shapefiles) ─────────
   - rasterio
