@@ -1,0 +1,24 @@
+{
+  "name": "Advanced Geoscientific Computing Codespace",
+
+  // Use the conda feature: installs Micromamba, then solves environment.yml
+  "features": {
+    "ghcr.io/devcontainers/features/conda:1": {
+      "installMamba": true,
+      "condaConfig": "../environment.lock.yml"
+    }
+  },
+
+  // Optional but handy
+  "postCreateCommand": "pre-commit install",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  }
+}

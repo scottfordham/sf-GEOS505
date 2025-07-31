@@ -23,9 +23,14 @@ dependencies:
   - s3fs                # read public S3 buckets with fsspec
   - cartopy
   - pygeohydro
+  - shapely
 
 # —— Geospatial - Google Earth Engine
   - earthengine-api
   - geemap
   - lonboard
 
+# -- Hydrology specific
+  - pip
+  - pip:
+    - metloom
