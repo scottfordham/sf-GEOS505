@@ -9,16 +9,19 @@
     }
   },
 
-  // Optional but handy
-  "postCreateCommand": "pre-commit install",
-
   "customizations": {
     "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/opt/conda/envs/geos505/bin/python",
+        "python.terminal.activateEnvironment": true
+      },
       "extensions": [
         "ms-python.python",
         "ms-python.vscode-pylance",
         "ms-toolsai.jupyter"
       ]
     }
-  }
+  },
+
+  "postCreateCommand": "pre-commit install && python -m ipykernel install --user --name geos505 --display-name 'Python (geos505)'"
 }
