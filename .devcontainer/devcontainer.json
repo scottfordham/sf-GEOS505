@@ -5,7 +5,7 @@
   "features": {
     "ghcr.io/devcontainers/features/conda:1": {
       "installMamba": true,
-      "condaConfig": "../environment.lock.yml"
+      "condaConfig": "../environment.yml"
     }
   },
 
