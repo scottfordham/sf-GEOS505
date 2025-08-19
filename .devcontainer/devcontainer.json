@@ -23,5 +23,5 @@
     }
   },
 
-  "postCreateCommand": "pre-commit install && python -m ipykernel install --user --name geos505 --display-name 'Python (geos505)'"
+  "postCreateCommand": "conda env create -f environment.yml && conda clean --all -y"
 }
