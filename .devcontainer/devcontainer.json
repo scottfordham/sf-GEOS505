@@ -1,9 +1,5 @@
 {
   "name": "Advanced Geoscientific Computing Codespace",
-  "build": { 
-    "context": "..",
-	"dockerfile": "Dockerfile"
-  },
   // Use the conda feature: installs Micromamba, then solves environment.yml
   "features": {
     "ghcr.io/devcontainers/features/conda:1": {
