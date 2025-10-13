@@ -10,10 +10,15 @@ dependencies:
   - ipykernel
   - numpy
   - pandas
+  - statsmodels
+  - scikit-learn
+  - xgboost
   - xarray
   - scipy
   - matplotlib         # keep until you swap in hvplot, etc.
   - pyfonts
+  - pint
+
 
 # ── Geospatial “minimum viable” (read rasters, shapefiles) ─────────
   - rasterio
