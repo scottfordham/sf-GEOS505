@@ -34,7 +34,8 @@ dependencies:
   - cartopy
   - pygeohydro
   - shapely
-
+  - richdem
+  
 # —— Geospatial - Google Earth Engine
   - earthengine-api
   - geemap
