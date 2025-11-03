@@ -16,6 +16,11 @@ dependencies:
   - xarray
   - scipy
   - matplotlib         # keep until you swap in hvplot, etc.
+  - seaborn
+  - plotly
+  - holoviews
+  - hvplot
+  - bokeh
   - pyfonts
   - pint
 
