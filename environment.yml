@@ -14,6 +14,7 @@ dependencies:
   - scikit-learn
   - xgboost
   - xarray
+  - dask
   - scipy
   - matplotlib         # keep until you swap in hvplot, etc.
   - seaborn
