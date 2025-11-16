@@ -1,0 +1,21 @@
+name: geos505-lidar
+channels:
+  - conda-forge
+  - nodefaults         # guarantees only conda-forge packages
+
+# ── Core runtime ────────────────────────────────────────────────────
+dependencies:
+  - python=3.12.*
+  - jupyterlab
+  - ipykernel
+  - matplotlib
+  - numpy
+  - laspy
+  - pdal
+  - python-pdal
+  - pyvista
+  - trame
+  - trame-vuetify
+  - trame-vtk
+  - ipywidgets
+
