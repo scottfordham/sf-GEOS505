@@ -36,14 +36,19 @@ dependencies:
   - pygeohydro
   - shapely
   - richdem
+  - laspy
   
 # —— Geospatial - Google Earth Engine
   - earthengine-api
   - geemap
   - lonboard
+  # - pdal
+  # - python-pdal
 
 # -- Hydrology specific
   - dataretrieval
   - pip
   - pip:
     - metloom
+    #- pyforestscan
+    #- open3d

@@ -1,0 +1,44 @@
+git fetch upstream
+git switch ClassFork
+git reset --hard upstream/main
+git push classfork ClassFork --force-with-lease
+
+#switch back to homework branch
+git switch main
+
+*bring in updates safely
+git checkout ClassFork -- "Unit04-Geospatial-Data/04.3 Raster....ipynb"
+
+cp "Unit04-Geospatial-Data/...04.3....ipynb" Homework/
+git add Homework
+git commit -m "Start Unit 04 homework"
+git push origin main
+
+OR
+
+git merge ClassFork
+
+
+
+---------------------------
+
+
+# Update instructor branch
+git fetch upstream
+git switch ClassFork
+git reset --hard upstream/main
+git push classfork ClassFork --force-with-lease
+
+# Switch back to homework branch
+git switch main
+
+# Pull updated files
+git checkout ClassFork -- path/to/new/file
+
+# or merge full update
+git merge ClassFork
+
+# Push homework
+git add Homework
+git commit -m "Homework"
+git push origin main
